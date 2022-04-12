@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TPI_2020_MonoBattle.BotPlayer" Collapsed="true">
+    <Position X="6.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BotPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_2020_MonoBattle.Constants" Collapsed="true">
+    <Position X="1.5" Y="0.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="TPI_2020_MonoBattle.Constants.MESSAGE_TYPE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Constants.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BWsQSBCwEkYBxARQAhAysrTQAFQgAhIggKIsQJYQhEg=</HashCode>
+      <FileName>Constants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_2020_MonoBattle.DisplayedRect" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQQAIQgAAAAAABBAAQAAAAAAgAgAAAAAAAIA=</HashCode>
+      <FileName>DisplayedRect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_2020_MonoBattle.frmConnection" Collapsed="true">
+    <Position X="4" Y="0.75" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="TPI_2020_MonoBattle.frmConnection.SafeClosingDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>frmConnection.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAADCAAABAAAACACgCCAAAIAAAAAAAgACAAIAQ=</HashCode>
+      <FileName>frmConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_2020_MonoBattle.GameManager" Collapsed="true">
+    <Position X="11" Y="3.25" Width="1.5" />
+    <AssociationLine Name="_turnIndicator" Type="TPI_2020_MonoBattle.TextRect" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.812" Y="3.25" />
+        <Point X="11.812" Y="1.875" />
+        <Point X="10" Y="1.875" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="_btnValidateShip" Type="TPI_2020_MonoBattle.TextRect" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.312" Y="3.25" />
+        <Point X="11.312" Y="2.99" />
+        <Point X="9.75" Y="2.99" />
+        <Point X="9.75" Y="2.441" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.409" Y="0.047" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="_btnSurrender" Type="TPI_2020_MonoBattle.TextRect" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.125" Y="3.25" />
+        <Point X="11.125" Y="2.99" />
+        <Point X="9" Y="2.99" />
+        <Point X="9" Y="2.441" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="_btnRandomPlacement" Type="TPI_2020_MonoBattle.TextRect" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.5" Y="3.25" />
+        <Point X="11.5" Y="2.188" />
+        <Point X="10" Y="2.188" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="_localPlayer" Type="TPI_2020_MonoBattle.LocalPlayer" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11" Y="3.75" />
+        <Point X="7.656" Y="3.75" />
+        <Point X="7.656" Y="4.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.107" Y="0.131" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="_opponent" Type="TPI_2020_MonoBattle.OpponentPlayer" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.25" Y="3.941" />
+        <Point X="11.25" Y="5.816" />
+        <Point X="7.333" Y="5.816" Type="JumpStart" />
+        <Point X="7.167" Y="5.816" Type="JumpEnd" />
+        <Point X="5.125" Y="5.816" />
+        <Point X="5.125" Y="5.441" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="_selectedShip" Type="TPI_2020_MonoBattle.Ship" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11" Y="3.375" />
+        <Point X="7.667" Y="3.375" />
+        <Point X="7.667" Y="2.25" />
+        <Point X="7.25" Y="2.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AASEABBgAQAkBwAAEAgFAACAAAAAAAAACIgEBAgUAAA=</HashCode>
+      <FileName>GameManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_turnIndicator" />
+      <Field Name="_btnValidateShip" />
+      <Field Name="_btnSurrender" />
+      <Field Name="_btnRandomPlacement" />
+      <Field Name="_localPlayer" />
+      <Field Name="_opponent" />
+      <Field Name="_botPlayer" />
+      <Field Name="_selectedShip" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TPI_2020_MonoBattle.Grid" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="TPI_2020_MonoBattle.Grid.SquareType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Grid.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAgAAAAIgAAAQAAAAAAAAAAAAAAAAAAAkAAAAE=</HashCode>
+      <FileName>Grid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_2020_MonoBattle.LocalPlayer" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <InheritanceLine Type="TPI_2020_MonoBattle.Player" FixedToPoint="true">
+      <Path>
+        <Point X="6" Y="4.062" />
+        <Point X="6" Y="4.375" />
+        <Point X="6.688" Y="4.375" />
+        <Point X="6.688" Y="4.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAKAAAAAAAEAAAAEAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LocalPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_2020_MonoBattle.NetworkManager" Collapsed="true">
+    <Position X="12.25" Y="5" Width="1.5" />
+    <AssociationLine Name="_instance" Type="TPI_2020_MonoBattle.NetworkManager">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.973" Y="0.07" Height="0.182" Width="0.928" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="GameInstance" Type="TPI_2020_MonoBattle.GameManager">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.203" Y="0.039" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAEEQAAAAQAAAEAgSAAAMAAABQCAAgBAAAAAAAAAAAA=</HashCode>
+      <FileName>NetworkManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_instance" />
+      <Property Name="GameInstance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TPI_2020_MonoBattle.OpponentPlayer" Collapsed="true">
+    <Position X="4.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OpponentPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_2020_MonoBattle.Player" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgCAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_playerGrid" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TPI_2020_MonoBattle.Ship" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIACAAAAAAAAQgAgAgAAIABAUgAAAAAAhAAAAAABIAA=</HashCode>
+      <FileName>Ship.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_2020_MonoBattle.TextRect" Collapsed="true">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAgAAAAAAAAAAAACAAAAAABAAIAAAAAA=</HashCode>
+      <FileName>TextRect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

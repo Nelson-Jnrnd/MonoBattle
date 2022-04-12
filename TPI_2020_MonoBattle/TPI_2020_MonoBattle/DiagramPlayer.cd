@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TPI_2020_MonoBattle.Player">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgCAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_playerGrid" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TPI_2020_MonoBattle.LocalPlayer">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAAAAAAAEAAAAEAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LocalPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_2020_MonoBattle.BotPlayer">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BotPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_2020_MonoBattle.OpponentPlayer">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OpponentPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_2020_MonoBattle.Grid">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="TPI_2020_MonoBattle.Grid.SquareType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Grid.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAgAAAAIgAAAQAAAAAAAAAAAAAAAAAAAkAAAAE=</HashCode>
+      <FileName>Grid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
